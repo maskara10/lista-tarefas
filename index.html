@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista de Tarefas</title>
+  </head>
+  <body>
     <h1>Lista de Tarefas</h1>
     <div class="tarefas">
-        <input type="text"><button>Adicionar</button>
-        <div class="tarefa">
-            <p>Tarefa 1</p>
-            <div class="icons"><img src="./img/lixeira.png" alt="" srcset=""><img src="./img/correto.png" alt="" srcset=""></div>
-        </div>
-        <div class="tarefa">
-            <p>Tarefa 2</p>
-            <div class="icons"><img src="./img/lixeira.png" alt="" srcset=""><img src="./img/correto.png" alt="" srcset=""></div>
-        </div>
+      <div class="pesquisa">
+        <input type="text" placeholder="Digite sua tarefa..." />
+        <button onclick="addTarefa()">Adicionar</button>
+      </div>
+      <main class="main"></main>
     </div>
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
